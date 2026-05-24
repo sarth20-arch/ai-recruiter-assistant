@@ -2,10 +2,8 @@
   {
     "question": "Tell me about your implementation experience",
     "answer": "Worked as a Business Analyst handling requirement gathering, stakeholder coordination, sprint discussions, and implementation workflows."
-  }
-]
+  },
 
-[
   {
     "id": 1,
     "category": "Implementation",
@@ -18,8 +16,7 @@
     "category": "Implementation",
     "question": "How did you translate business requirements into something engineering teams could actually build?",
     "answer": "I usually start by converting business problems into detailed functional requirements and user stories with acceptance criteria. I conduct discussions with engineering teams to validate feasibility and identify dependencies early. I also use process flows and UML diagrams wherever needed so developers clearly understand workflows and edge cases."
-  }
-]
+  },
 
   {
     "id": 3,
@@ -30,6 +27,7 @@
       "experience.json"
     ]
   },
+
   {
     "id": 8,
     "category": "Agile",
@@ -37,11 +35,10 @@
     "answer": "I have actively participated in sprint planning, backlog grooming, daily standups, sprint reviews, retrospectives, and UAT discussions. My role mainly involved clarifying requirements, prioritizing backlog items, resolving blockers, and coordinating between stakeholders and development teams."
   },
 
-   {
+  {
     "id": 9,
     "category": "Agile",
     "question": "How do you decide whether a backlog item is sprint ready?",
     "answer": "A backlog item is sprint ready when requirements are clear, acceptance criteria are defined, dependencies are identified, estimations are completed, and engineering teams have no major ambiguity remaining."
-  },
-
-  
+  }
+]

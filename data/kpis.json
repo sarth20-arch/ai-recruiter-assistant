@@ -7,16 +7,16 @@
       "Time to Value",
       "Retention Rate"
     ]
-  }
-]
- {
+  },
+
+  {
     "id": 5,
     "category": "Implementation",
     "question": "After launching a feature, what metrics did you track?",
     "answer": "I usually track feature adoption, active usage, drop-off points, issue volume, turnaround time, and customer feedback trends. For taxpayer-facing flows, we also monitored completion rates and reduction in support escalations."
   },
 
-   {
+  {
     "id": 11,
     "category": "Agile",
     "question": "What Agile metrics have you worked with?",
@@ -28,4 +28,5 @@
     "category": "Agile",
     "question": "Sprint velocity drops for two consecutive sprints. What would you investigate?",
     "answer": "I would investigate team bandwidth, unresolved dependencies, requirement churn, defect spikes, and estimation accuracy. I would also review whether unplanned work was affecting sprint capacity."
-  },
+  }
+]

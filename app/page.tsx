@@ -8,7 +8,7 @@ import projects from "../data/projects.json";
 import behavioral from "../data/behavioral.json";
 import kpis from "../data/kpis.json";
 import starStories from "../data/star_stories.json";
-import recruiterQuestions from "../data/recruiterquestions.json";
+import recruiterQuestions from "../data/recruiter_questions.json";
 
 export default function Home() {
   const [selectedId, setSelectedId] = useState<number | null>(null);
@@ -27,7 +27,7 @@ const [loading, setLoading] = useState(false);
     "Stakeholder Management",
   ];
 
-  const filteredQuestions = recruiterQA.filter((item) => {
+  const filteredQuestions = recruiterQA.filter((item: any) => {
     const matchesMode =
       selectedMode === "All" ||
       item.category === selectedMode;
@@ -185,8 +185,8 @@ const askAI = async () => {
   {aiResponse && (
     <div className="border border-gray-700 rounded-xl p-5 bg-gray-900">
       <h2 className="text-lg font-semibold mb-3">
-        AI Response
-      </h2>
+  Sarthak's Response
+</h2>
 
       <p className="text-gray-300 whitespace-pre-line">
         {aiResponse}
@@ -212,7 +212,7 @@ const askAI = async () => {
         </div>
 
         <div className="space-y-6">
-          {filteredQuestions.map((item) => (
+          {filteredQuestions.map((item: any) => (
             <div
               key={item.id}
               className="border border-gray-700 p-5 rounded-xl cursor-pointer hover:border-white transition"

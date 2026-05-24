@@ -5,14 +5,14 @@
     "question": "Tell me about your implementation experience?",
     "answer": "Handled requirement gathering and stakeholder coordination."
   },
+
   {
     "id": 2,
     "category": "Agile",
     "question": "Which Agile ceremonies have you participated in?",
     "answer": "Sprint planning, retrospectives, and backlog grooming."
-  }
-]
-[
+  },
+
   {
     "id": 19,
     "category": "Recruiter",
