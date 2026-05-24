@@ -1,0 +1,38 @@
+[
+  {
+    "scenario": "Requirement ambiguity",
+    "situation": "Requirements were unclear during sprint planning.",
+    "task": "Needed to align stakeholders and reduce ambiguity.",
+    "action": "Conducted clarification workshops and refined user stories.",
+    "result": "Reduced rework and improved sprint delivery efficiency."
+  }
+]
+
+[
+  {
+    "id": 1,
+    "category": "Implementation",
+    "question": "Walk me through one product or feature implementation you handled end-to-end — from requirement gathering to post-launch tracking.",
+    "answer": "At Infosys, I worked on an Income Tax application where taxpayers could track their filing and tax status. I handled requirement gathering directly with government stakeholders, created BRDs, FRDs, user stories, and coordinated with developers and QA teams. During implementation, I conducted walkthroughs to clarify requirements and managed sprint tracking to ensure delivery alignment. Post-launch, we tracked issue resolution time, adoption by taxpayers, and reduction in manual support requests."
+  },
+
+    {
+    "id": 4,
+    "category": "Implementation",
+    "question": "Tell me about a time implementation timelines slipped.",
+    "answer": "In one implementation, a dependency from another team delayed API integration timelines. I immediately coordinated with stakeholders, re-prioritized parallel tasks for developers, and created interim mock responses so frontend work could continue. This reduced the overall delay impact and helped us recover most of the planned release timeline."
+  },
+
+  {
+    "id": 6,
+    "category": "Implementation",
+    "question": "Describe a project where stakeholders were unclear about requirements.",
+    "answer": "In one project, stakeholders had different interpretations of approval workflows. I conducted multiple workshops, mapped the entire process visually, documented edge cases, and validated flows with all teams before development began. This significantly reduced requirement changes during the sprint cycle."
+  },
+  
+   {
+    "id": 13,
+    "category": "Agile",
+    "question": "Tell me about a retrospective insight that changed team behavior.",
+    "answer": "During a retrospective, we identified recurring delays caused by unclear acceptance criteria. I introduced structured acceptance templates and requirement walkthroughs before sprint start, which reduced clarification calls during development."
+  },

@@ -1,0 +1,43 @@
+[
+  {
+    "id": 1,
+    "category": "Implementation",
+    "question": "Tell me about your implementation experience?",
+    "answer": "Handled requirement gathering and stakeholder coordination."
+  },
+  {
+    "id": 2,
+    "category": "Agile",
+    "question": "Which Agile ceremonies have you participated in?",
+    "answer": "Sprint planning, retrospectives, and backlog grooming."
+  }
+]
+[
+  {
+    "id": 19,
+    "category": "Recruiter",
+    "question": "Tell me about yourself.",
+    "answer": "I have around 3 years of experience as a Business Analyst primarily working on implementation-heavy projects. My experience includes requirement gathering, stakeholder management, Agile delivery coordination, and working closely with development and QA teams. I have worked on large-scale applications including Income Tax-related platforms and recently started transitioning more toward product-focused responsibilities and AI-driven product thinking."
+  },
+
+  {
+    "id": 20,
+    "category": "Recruiter",
+    "question": "Why are you looking to transition into Product Management?",
+    "answer": "Over time, I realized I enjoy not just documenting requirements but also understanding user problems, prioritizing solutions, and influencing product direction. My BA experience already exposed me to cross-functional collaboration and delivery ownership, and Product Management feels like a natural progression where I can take broader ownership of product outcomes."
+  },
+
+  {
+    "id": 21,
+    "category": "Recruiter",
+    "question": "Why should we hire you for this role?",
+    "answer": "I bring a strong mix of implementation experience, stakeholder management, Agile execution, and structured problem-solving. Since I have worked closely with business teams, developers, QA, and clients, I understand both technical and business perspectives. I also adapt quickly and enjoy working in ownership-driven environments."
+  },
+
+  {
+    "id": 22,
+    "category": "Recruiter",
+    "question": "What are your strengths as a Product or Business Analyst?",
+    "answer": "My strengths are stakeholder communication, requirement clarity, structured documentation, problem-solving, and cross-functional coordination. I am also comfortable handling ambiguity and aligning multiple teams toward a common delivery goal."
+  }
+]

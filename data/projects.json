@@ -1,0 +1,43 @@
+[
+  {
+    "id": 1,
+    "category": "Projects",
+    "question": "Tell me about a challenging project you worked on.",
+    "answer": "One challenging project involved implementing workflow enhancements in a taxpayer-facing platform with multiple stakeholder dependencies. The challenge was balancing changing requirements, delivery timelines, and technical constraints while ensuring release stability."
+  },
+
+  {
+    "id": 2,
+    "category": "Projects",
+    "question": "What was your exact role in the project lifecycle?",
+    "answer": "My role involved requirement gathering, stakeholder discussions, BRD and FRD preparation, creating user stories, coordinating with development and QA teams, sprint participation, and supporting UAT and release tracking."
+  },
+
+  {
+    "id": 3,
+    "category": "Projects",
+    "question": "How did you coordinate with developers during implementation?",
+    "answer": "I conducted requirement walkthroughs, clarified edge cases, resolved functional doubts during sprints, and ensured developers understood business expectations clearly before implementation."
+  },
+
+  {
+    "id": 4,
+    "category": "Projects",
+    "question": "Describe a situation where project priorities changed suddenly.",
+    "answer": "In one project, stakeholders introduced urgent compliance-related changes close to release timelines. I worked with engineering teams to assess impact, re-prioritize sprint items, and communicate realistic timelines to stakeholders."
+  },
+
+  {
+    "id": 5,
+    "category": "Projects",
+    "question": "How did you ensure successful UAT completion?",
+    "answer": "I coordinated closely with QA and business stakeholders, validated test scenarios against requirements, tracked defects actively, and ensured critical issues were resolved before signoff."
+  },
+
+  {
+    "id": 6,
+    "category": "Projects",
+    "question": "What project management tools have you used?",
+    "answer": "I have worked with tools like Jira, Confluence, Excel trackers, and collaboration platforms for sprint tracking, backlog management, documentation, and stakeholder communication."
+  }
+]
