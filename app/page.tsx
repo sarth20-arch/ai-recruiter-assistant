@@ -2,6 +2,7 @@
 
   import { useState } from "react";
   import recruiterQA from "../data/recruiter_qa.json";
+  import Image from "next/image";
 
   export default function Home() {
     const [selectedId, setSelectedId] = useState<number | null>(null);
@@ -101,9 +102,24 @@
       <main className="min-h-screen bg-black text-white flex">
         {/* Sidebar */}
         <aside className="w-80 border-r border-gray-800 p-6 hidden md:block">
-          <h1 className="text-3xl font-bold mb-6">
-            Sarthak Srivastava
-          </h1>
+          <div className="flex items-center gap-4 mb-6">
+  <Image
+    src="/logo.png"
+    alt="AI Business Analyst"
+    width={80}
+    height={80}
+  />
+
+  <div>
+    <h1 className="text-4xl font-bold">
+      AI Recruiter Assistant
+    </h1>
+
+    <p className="text-gray-400">
+      AI-powered Interview & BA Toolkit
+    </p>
+  </div>
+</div>
 
           <div className="space-y-6">
             <div>
