@@ -106,8 +106,8 @@
   <Image
     src="/logo.png"
     alt="AI Business Analyst"
-    width={80}
-    height={80}
+    width={100}
+    height={100}
   />
 
   <div>
