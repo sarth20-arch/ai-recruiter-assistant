@@ -1,37 +1,55 @@
 [
   {
-    "scenario": "Requirement ambiguity",
-    "situation": "Requirements were unclear during sprint planning.",
-    "task": "Needed to align stakeholders and reduce ambiguity.",
-    "action": "Conducted clarification workshops and refined user stories.",
-    "result": "Reduced rework and improved sprint delivery efficiency."
+    "id": 1,
+    "scenario": "Requirement Ambiguity",
+    "situation": "During sprint planning, stakeholders had different interpretations of an approval workflow within the Tax Officer Management Platform.",
+    "task": "My responsibility was to align stakeholders and ensure the development team had a clear understanding of the expected workflow.",
+    "action": "I conducted clarification workshops, mapped the workflow visually, documented edge cases, and converted the finalized process into user stories with acceptance criteria.",
+    "result": "The team started development with aligned requirements, reducing requirement-related changes during sprint execution."
   },
 
   {
-    "id": 1,
-    "category": "Implementation",
-    "question": "Walk me through one product or feature implementation you handled end-to-end — from requirement gathering to post-launch tracking.",
-    "answer": "At Infosys, I worked on an Income Tax application where taxpayers could track their filing and tax status. I handled requirement gathering directly with government stakeholders, created BRDs, FRDs, user stories, and coordinated with developers and QA teams. During implementation, I conducted walkthroughs to clarify requirements and managed sprint tracking to ensure delivery alignment. Post-launch, we tracked issue resolution time, adoption by taxpayers, and reduction in manual support requests."
+    "id": 2,
+    "scenario": "Stakeholder Conflict",
+    "situation": "Business stakeholders and technical teams had different priorities regarding implementation timelines and feature scope.",
+    "task": "I needed to align both groups while keeping delivery timelines realistic.",
+    "action": "I facilitated discussions focused on business priorities, clarified trade-offs, and helped break requirements into phased deliveries.",
+    "result": "Stakeholders agreed on a prioritized scope and the team continued implementation without significant delays."
+  },
+
+  {
+    "id": 3,
+    "scenario": "Changing Requirements",
+    "situation": "New business requirements were introduced after sprint planning had already been completed.",
+    "task": "I had to evaluate the impact and minimize disruption to ongoing development.",
+    "action": "I worked with stakeholders and developers to assess dependencies, reprioritize backlog items, and communicate revised expectations.",
+    "result": "The team adapted to the changes while maintaining delivery focus on the highest-priority items."
   },
 
   {
     "id": 4,
-    "category": "Implementation",
-    "question": "Tell me about a time implementation timelines slipped.",
-    "answer": "In one implementation, a dependency from another team delayed API integration timelines. I immediately coordinated with stakeholders, re-prioritized parallel tasks for developers, and created interim mock responses so frontend work could continue. This reduced the overall delay impact and helped us recover most of the planned release timeline."
+    "scenario": "UAT Challenge",
+    "situation": "During UAT, business users identified gaps between implemented functionality and their expectations.",
+    "task": "I needed to understand the gaps and ensure alignment before go-live.",
+    "action": "I organized walkthrough sessions, compared requirements against delivered functionality, and coordinated fixes with developers.",
+    "result": "Critical issues were resolved before signoff, improving stakeholder confidence in the release."
+  },
+
+  {
+    "id": 5,
+    "scenario": "Cross-Functional Collaboration",
+    "situation": "A feature required coordination between business stakeholders, developers, QA teams, and operations teams.",
+    "task": "I was responsible for maintaining alignment and ensuring smooth implementation.",
+    "action": "I conducted regular sync meetings, tracked dependencies, clarified requirements, and communicated progress across teams.",
+    "result": "The implementation progressed smoothly with fewer communication-related blockers."
   },
 
   {
     "id": 6,
-    "category": "Implementation",
-    "question": "Describe a project where stakeholders were unclear about requirements.",
-    "answer": "In one project, stakeholders had different interpretations of approval workflows. I conducted multiple workshops, mapped the entire process visually, documented edge cases, and validated flows with all teams before development began. This significantly reduced requirement changes during the sprint cycle."
-  },
-
-  {
-    "id": 13,
-    "category": "Agile",
-    "question": "Tell me about a retrospective insight that changed team behavior.",
-    "answer": "During a retrospective, we identified recurring delays caused by unclear acceptance criteria. I introduced structured acceptance templates and requirement walkthroughs before sprint start, which reduced clarification calls during development."
+    "scenario": "Tight Deadline",
+    "situation": "A delivery milestone had a fixed timeline while several requirements were still being refined.",
+    "task": "I needed to support delivery without compromising requirement quality.",
+    "action": "I prioritized critical workflows, clarified high-risk requirements first, and worked closely with the team during sprint execution.",
+    "result": "The team met delivery expectations while maintaining requirement clarity."
   }
 ]
