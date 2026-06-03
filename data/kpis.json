@@ -1,32 +1,105 @@
 [
-  {
-    "feature": "User onboarding",
-    "kpis": [
-      "Activation Rate",
-      "Onboarding Completion Rate",
-      "Time to Value",
-      "Retention Rate"
-    ]
-  },
+{
+"id": 1,
+"framework": "RICE Scoring",
+"category": "Prioritization",
+"tag": "Must Know",
+"summary": "A prioritization framework used to evaluate competing initiatives based on business impact and implementation effort.",
+"formula": "RICE = (Reach × Impact × Confidence) / Effort",
+"how_ba_uses_it": "Useful during backlog refinement and stakeholder discussions when multiple requirements compete for limited development capacity.",
+"interview_tip": "When discussing prioritization, explain how you evaluate business impact, user reach, implementation effort, and confidence before recommending priorities.",
+"when_to_use": "Sprint planning, backlog prioritization, roadmap discussions, stakeholder alignment sessions.",
+"example": "Feature A reaches 10,000 users with high impact and low effort, so it receives higher priority than a low-impact feature."
+},
 
-  {
-    "id": 5,
-    "category": "Implementation",
-    "question": "After launching a feature, what metrics did you track?",
-    "answer": "I usually track feature adoption, active usage, drop-off points, issue volume, turnaround time, and customer feedback trends. For taxpayer-facing flows, we also monitored completion rates and reduction in support escalations."
-  },
+{
+"id": 2,
+"framework": "OKRs",
+"category": "Goal Setting",
+"tag": "Must Know",
+"summary": "Objectives and Key Results help teams align work with measurable business outcomes.",
+"formula": "Objective + Measurable Key Results",
+"how_ba_uses_it": "Helps connect requirements and implementation work to measurable business goals.",
+"interview_tip": "Mention how stakeholder requirements should support measurable outcomes rather than just feature delivery.",
+"when_to_use": "Quarterly planning, roadmap discussions, business goal alignment.",
+"example": "Objective: Improve onboarding experience. KR: Increase onboarding completion from 60% to 80%."
+},
 
-  {
-    "id": 11,
-    "category": "Agile",
-    "question": "What Agile metrics have you worked with?",
-    "answer": "I have worked with sprint velocity, burndown charts, cycle time, defect leakage, and backlog aging metrics. These metrics helped identify bottlenecks, improve planning accuracy, and track delivery consistency."
-  },
+{
+"id": 3,
+"framework": "North Star Metric",
+"category": "Product Strategy",
+"tag": "Must Know",
+"summary": "A single metric that reflects the core value delivered to users.",
+"formula": "Primary Value Metric",
+"how_ba_uses_it": "Helps ensure requirements and enhancements support the product's primary business objective.",
+"interview_tip": "Show how feature decisions should contribute to a measurable business outcome.",
+"when_to_use": "Product strategy discussions, roadmap planning, stakeholder reviews.",
+"example": "Spotify: Monthly Active Listeners. Airbnb: Nights Booked."
+},
 
-  {
-    "id": 14,
-    "category": "Agile",
-    "question": "Sprint velocity drops for two consecutive sprints. What would you investigate?",
-    "answer": "I would investigate team bandwidth, unresolved dependencies, requirement churn, defect spikes, and estimation accuracy. I would also review whether unplanned work was affecting sprint capacity."
-  }
+{
+"id": 4,
+"framework": "HEART Framework",
+"category": "UX Metrics",
+"tag": "Good to Know",
+"summary": "Google's framework for measuring user experience across five dimensions.",
+"formula": "Happiness + Engagement + Adoption + Retention + Task Success",
+"how_ba_uses_it": "Useful when evaluating whether a feature improves user experience beyond simple delivery metrics.",
+"interview_tip": "Discuss how success should be measured using adoption, retention, and task completion metrics.",
+"when_to_use": "UX improvements, feature launches, usability analysis.",
+"example": "After a redesign, task completion improved from 72% to 89%."
+},
+
+{
+"id": 5,
+"framework": "Kano Model",
+"category": "Prioritization",
+"tag": "Good to Know",
+"summary": "Framework used to classify requirements into must-have, performance, and delight features.",
+"formula": "Basic Needs + Performance Needs + Delighters",
+"how_ba_uses_it": "Useful for separating mandatory requirements from optional enhancements.",
+"interview_tip": "Mention Kano when discussing prioritization and stakeholder expectation management.",
+"when_to_use": "Requirements workshops, backlog grooming, scope discussions.",
+"example": "Login functionality is a basic need, while AI recommendations may be a delighter."
+},
+
+{
+"id": 6,
+"framework": "Jobs To Be Done",
+"category": "Discovery",
+"tag": "Must Know",
+"summary": "A framework that focuses on understanding the underlying job a user is trying to accomplish.",
+"formula": "When... I want to... So I can...",
+"how_ba_uses_it": "Helps uncover business needs rather than documenting only requested features.",
+"interview_tip": "Explain how you identify user goals before documenting requirements.",
+"when_to_use": "Requirement gathering, stakeholder interviews, discovery workshops.",
+"example": "Users don't want a report; they want visibility into business performance."
+},
+
+{
+"id": 7,
+"framework": "DAU / MAU Ratio",
+"category": "Growth Metrics",
+"tag": "Must Know",
+"summary": "Measures product stickiness by comparing daily active users to monthly active users.",
+"formula": "(DAU / MAU) × 100",
+"how_ba_uses_it": "Provides insight into engagement and recurring product usage.",
+"interview_tip": "Mention engagement metrics when discussing adoption or product success.",
+"when_to_use": "Product health reviews, engagement analysis, growth discussions.",
+"example": "DAU = 10,000 and MAU = 50,000 gives a stickiness score of 20%."
+},
+
+{
+"id": 8,
+"framework": "Pirate Metrics (AARRR)",
+"category": "Growth Metrics",
+"tag": "Good to Know",
+"summary": "Tracks the full customer lifecycle from acquisition through referral.",
+"formula": "Acquisition → Activation → Retention → Revenue → Referral",
+"how_ba_uses_it": "Helps connect requirements and features to business growth objectives.",
+"interview_tip": "Frame project outcomes in terms of activation, retention, or conversion improvements.",
+"when_to_use": "Growth initiatives, onboarding improvements, product optimization.",
+"example": "Reducing onboarding steps improved activation from 35% to 60%."
+}
 ]

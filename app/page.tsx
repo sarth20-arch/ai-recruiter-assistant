@@ -2,6 +2,107 @@
 
 import { useState } from "react";
 import recruiterQA from "../data/recruiter_qa.json";
+import kpis from "../data/kpis.json";
+
+function KPIInsights() {
+  const data: any = kpis || [];
+  const [openId, setOpenId] = useState<number | null>(null);
+
+  return (
+    <div>
+      <h2 className="story-title">
+        KPI & Product Framework Insights
+      </h2>
+
+      <p className="story-sub">
+        Practical frameworks Business Analysts can use during
+        requirement gathering, prioritization, stakeholder
+        discussions and interview preparation.
+      </p>
+
+      <div className="qa-list">
+        {Array.isArray(data) &&
+          data.map((k: any) => (
+            <div
+              key={k.id}
+              className={`qa-card ${
+                openId === k.id ? "open" : ""
+              }`}
+              onClick={() =>
+                setOpenId(
+                  openId === k.id ? null : k.id
+                )
+              }
+            >
+              <div className="qa-meta">
+                {k.category}
+              </div>
+
+              <div className="qa-question">
+                <span>{k.framework}</span>
+
+                <span className="qa-chevron">
+                  ▼
+                </span>
+              </div>
+
+              {openId === k.id && (
+                <div className="qa-answer">
+
+                  <p>
+                    <strong>Summary</strong>
+                    <br />
+                    {k.summary}
+                  </p>
+
+                  <br />
+
+                  <p>
+                    <strong>Formula</strong>
+                    <br />
+                    {k.formula}
+                  </p>
+
+                  <br />
+
+                  <p>
+                    <strong>How a BA Uses It</strong>
+                    <br />
+                    {k.how_ba_uses_it}
+                  </p>
+
+                  <br />
+
+                  <p>
+                    <strong>Interview Tip</strong>
+                    <br />
+                    {k.interview_tip}
+                  </p>
+
+                  <br />
+
+                  <p>
+                    <strong>When To Use It</strong>
+                    <br />
+                    {k.when_to_use}
+                  </p>
+
+                  <br />
+
+                  <p>
+                    <strong>Example</strong>
+                    <br />
+                    {k.example}
+                  </p>
+
+                </div>
+              )}
+            </div>
+          ))}
+      </div>
+    </div>
+  );
+}
 
 export default function Home() {
   const [selectedId, setSelectedId] = useState<number | null>(null);
@@ -14,6 +115,7 @@ export default function Home() {
   const [storyOutput, setStoryOutput] = useState("");
   const [storyLoading, setStoryLoading] = useState(false);
 
+  
   const recruiterModes = [
     "All",
     "Behavioral",
@@ -398,7 +500,7 @@ export default function Home() {
           </div>
 
           <div className="tab-row">
-            {["Recruiter Assistant", "BA Toolkit"].map((section) => (
+            {["Recruiter Assistant", "BA Toolkit", "KPI Insights"].map((section) => (
               <button
                 key={section}
                 className={`tab-btn ${activeSection === section ? "active" : ""}`}
@@ -515,6 +617,7 @@ export default function Home() {
                 )}
               </div>
             )}
+            {activeSection === "KPI Insights" && <KPIInsights />}
           </div>
         </div>
       </div>
