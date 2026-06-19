@@ -1,36 +1,286 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AI Recruiter Assistant
 
-## Getting Started
+🚀 Live Demo
 
-First, run the development server:
+https://ai-recruiter-assistant.vercel.app/
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Overview
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+AI Recruiter Assistant is a conversational AI application designed to act as a digital representation of my professional experience.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Instead of reviewing a static resume, recruiters can interactively ask questions about:
 
-## Learn More
+* Professional Experience
+* Projects
+* KPI Knowledge
+* Agile Practices
+* Stakeholder Management
+* Behavioral Scenarios
+* Business Analysis Work
+* Product Thinking
 
-To learn more about Next.js, take a look at the following resources:
+The assistant generates contextual responses grounded in a structured knowledge repository rather than generic AI-generated answers.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Problem Statement
 
-## Deploy on Vercel
+Traditional resumes provide limited information and often leave recruiters with unanswered questions.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Recruiters frequently want to know:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+* What projects has the candidate worked on?
+* How does the candidate handle stakeholders?
+* What KPIs has the candidate tracked?
+* How does the candidate approach Agile delivery?
+* Can the candidate explain implementation challenges?
+
+This project addresses that problem by creating an AI-powered recruiter interaction experience.
+
+---
+
+## Key Features
+
+### AI Recruiter Q&A
+
+Ask questions such as:
+
+* Tell me about yourself
+* Describe your implementation experience
+* Explain a stakeholder management challenge
+* What Agile ceremonies have you participated in?
+* What KPIs have you tracked?
+
+The assistant responds using contextual knowledge from structured datasets.
+
+---
+
+### KPI Insights
+
+Explore examples of:
+
+* Activation Rate
+* Retention Rate
+* Feature Adoption
+* Sprint Velocity
+* Stakeholder Alignment
+
+and understand how product and business metrics are used to measure success.
+
+---
+
+### BA Toolkit
+
+Generate:
+
+* User Stories
+* Acceptance Criteria
+* Requirement Artifacts
+
+from feature descriptions.
+
+Designed to simulate common Business Analyst workflows.
+
+---
+
+### Project Knowledge Repository
+
+The assistant maintains a structured repository of:
+
+* Project Experience
+* STAR Stories
+* Behavioral Scenarios
+* Recruiter Questions
+* KPI Examples
+
+to generate grounded responses.
+
+---
+
+## How It Works
+
+Recruiter Question
+
+↓
+
+Context Selection
+
+↓
+
+Knowledge Retrieval
+
+↓
+
+Prompt Construction
+
+↓
+
+LLM Processing (OpenRouter)
+
+↓
+
+AI Response
+
+↓
+
+Response Displayed to Recruiter
+
+---
+
+## Knowledge Base Architecture
+
+The application uses structured datasets instead of relying solely on raw prompts.
+
+### Projects
+
+Contains:
+
+* Tax Officer Management Platform
+* HealthTech Partnership Initiative
+* AI Recruiter Assistant
+
+Includes:
+
+* Objectives
+* Challenges
+* Actions
+* Outcomes
+* Skills
+
+---
+
+### STAR Stories
+
+Contains examples related to:
+
+* Requirement Ambiguity
+* Stakeholder Management
+* Agile Delivery
+* Implementation Challenges
+
+---
+
+### KPI Knowledge
+
+Contains examples of:
+
+* Activation Metrics
+* Adoption Metrics
+* Retention Metrics
+* Sprint Metrics
+* Product Success Indicators
+
+---
+
+### Recruiter Questions
+
+Contains curated responses for:
+
+* Tell me about yourself
+* Career transitions
+* Strengths and weaknesses
+* Product and Business Analysis discussions
+
+---
+
+## Tech Stack
+
+### Frontend
+
+* Next.js
+* React
+* TypeScript
+* Tailwind CSS
+
+### Backend
+
+* Next.js API Routes
+* OpenRouter API Integration
+
+### Knowledge Layer
+
+* Structured JSON Knowledge Base
+* Context Retrieval Logic
+* Prompt Engineering
+
+### Deployment
+
+* GitHub
+* Vercel
+
+---
+
+## Technical Architecture
+
+Frontend (Next.js)
+
+↓
+
+Backend API Route
+
+↓
+
+Context Selection Engine
+
+↓
+
+Knowledge Retrieval Layer
+
+↓
+
+Prompt Construction
+
+↓
+
+OpenRouter
+
+↓
+
+LLM Response
+
+↓
+
+Frontend Rendering
+
+---
+
+## What I Learned
+
+Through this project I gained hands-on experience in:
+
+* AI Product Development
+* Prompt Engineering
+* Context Retrieval
+* API Integrations
+* Next.js Development
+* TypeScript
+* Product Thinking
+* Business Analysis Workflows
+* Git & GitHub
+* Vercel Deployment
+
+---
+
+## Future Enhancements
+
+* Resume vs JD Match Analyzer
+* Interview Evaluation Engine
+* Candidate Scoring Framework
+* Advanced Knowledge Retrieval
+* Recruiter Analytics Dashboard
+
+---
+
+## Author
+
+Sarthak Srivastava
+
+Business Analyst | Product Enthusiast | AI Builder
+
+LinkedIn:
+https://www.linkedin.com/in/sarthak-srivastava-s1997/
+
+Live Demo:
+https://ai-recruiter-assistant.vercel.app/
