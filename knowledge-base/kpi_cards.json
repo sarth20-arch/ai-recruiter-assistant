@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Activation Rate",
+    "value": "68%",
+    "insight": "Improved onboarding completion through requirement simplification."
+  },
+  {
+    "id": 2,
+    "title": "Sprint Velocity",
+    "value": "+22%",
+    "insight": "Reduced ambiguity through structured user stories."
+  },
+  {
+    "id": 3,
+    "title": "Stakeholder Alignment",
+    "value": "High",
+    "insight": "Managed coordination between clients, QA, and developers."
+  },
+  {
+    "id": 4,
+    "title": "Feature Adoption",
+    "value": "+31%",
+    "insight": "Improved usability through iterative feedback incorporation."
+  }
+]

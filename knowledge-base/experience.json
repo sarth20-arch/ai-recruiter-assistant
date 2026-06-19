@@ -1,0 +1,44 @@
+[
+  {
+    "question": "Tell me about your implementation experience",
+    "answer": "Worked as a Business Analyst handling requirement gathering, stakeholder coordination, sprint discussions, and implementation workflows."
+  },
+
+  {
+    "id": 1,
+    "category": "Implementation",
+    "question": "Walk me through one product or feature implementation you handled end-to-end — from requirement gathering to post-launch tracking.",
+    "answer": "At Infosys, I worked on an Income Tax application where taxpayers could track their filing and tax status. I handled requirement gathering directly with government stakeholders, created BRDs, FRDs, user stories, and coordinated with developers and QA teams. During implementation, I conducted walkthroughs to clarify requirements and managed sprint tracking to ensure delivery alignment. Post-launch, we tracked issue resolution time, adoption by taxpayers, and reduction in manual support requests."
+  },
+
+  {
+    "id": 2,
+    "category": "Implementation",
+    "question": "How did you translate business requirements into something engineering teams could actually build?",
+    "answer": "I usually start by converting business problems into detailed functional requirements and user stories with acceptance criteria. I conduct discussions with engineering teams to validate feasibility and identify dependencies early. I also use process flows and UML diagrams wherever needed so developers clearly understand workflows and edge cases."
+  },
+
+  {
+    "id": 3,
+    "category": "Implementation",
+    "question": "What documents or artifacts do you usually create before development starts?",
+    "answer": "I typically create BRDs, FRDs, user stories, acceptance criteria, workflow diagrams, process maps, and sprint-ready backlog items. For complex implementations, I also create wireframe references and edge-case documentation to reduce ambiguity during development.",
+    "file": [
+      "experience.json"
+    ]
+  },
+
+  {
+    "id": 8,
+    "category": "Agile",
+    "question": "Which Agile ceremonies have you participated in?",
+    "answer": "I have actively participated in sprint planning, backlog grooming, daily standups, sprint reviews, retrospectives, and UAT discussions. My role mainly involved clarifying requirements, prioritizing backlog items, resolving blockers, and coordinating between stakeholders and development teams."
+  },
+
+  {
+    "id": 9,
+    "category": "Agile",
+    "question": "How do you decide whether a backlog item is sprint ready?",
+    "answer": "A backlog item is sprint ready when requirements are clear, acceptance criteria are defined, dependencies are identified, estimations are completed, and engineering teams have no major ambiguity remaining."
+  }
+]

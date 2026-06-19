@@ -1,0 +1,55 @@
+[
+  {
+    "id": 1,
+    "scenario": "Requirement Ambiguity",
+    "situation": "During sprint planning, stakeholders had different interpretations of an approval workflow within the Tax Officer Management Platform.",
+    "task": "My responsibility was to align stakeholders and ensure the development team had a clear understanding of the expected workflow.",
+    "action": "I conducted clarification workshops, mapped the workflow visually, documented edge cases, and converted the finalized process into user stories with acceptance criteria.",
+    "result": "The team started development with aligned requirements, reducing requirement-related changes during sprint execution."
+  },
+
+  {
+    "id": 2,
+    "scenario": "Stakeholder Conflict",
+    "situation": "Business stakeholders and technical teams had different priorities regarding implementation timelines and feature scope.",
+    "task": "I needed to align both groups while keeping delivery timelines realistic.",
+    "action": "I facilitated discussions focused on business priorities, clarified trade-offs, and helped break requirements into phased deliveries.",
+    "result": "Stakeholders agreed on a prioritized scope and the team continued implementation without significant delays."
+  },
+
+  {
+    "id": 3,
+    "scenario": "Changing Requirements",
+    "situation": "New business requirements were introduced after sprint planning had already been completed.",
+    "task": "I had to evaluate the impact and minimize disruption to ongoing development.",
+    "action": "I worked with stakeholders and developers to assess dependencies, reprioritize backlog items, and communicate revised expectations.",
+    "result": "The team adapted to the changes while maintaining delivery focus on the highest-priority items."
+  },
+
+  {
+    "id": 4,
+    "scenario": "UAT Challenge",
+    "situation": "During UAT, business users identified gaps between implemented functionality and their expectations.",
+    "task": "I needed to understand the gaps and ensure alignment before go-live.",
+    "action": "I organized walkthrough sessions, compared requirements against delivered functionality, and coordinated fixes with developers.",
+    "result": "Critical issues were resolved before signoff, improving stakeholder confidence in the release."
+  },
+
+  {
+    "id": 5,
+    "scenario": "Cross-Functional Collaboration",
+    "situation": "A feature required coordination between business stakeholders, developers, QA teams, and operations teams.",
+    "task": "I was responsible for maintaining alignment and ensuring smooth implementation.",
+    "action": "I conducted regular sync meetings, tracked dependencies, clarified requirements, and communicated progress across teams.",
+    "result": "The implementation progressed smoothly with fewer communication-related blockers."
+  },
+
+  {
+    "id": 6,
+    "scenario": "Tight Deadline",
+    "situation": "A delivery milestone had a fixed timeline while several requirements were still being refined.",
+    "task": "I needed to support delivery without compromising requirement quality.",
+    "action": "I prioritized critical workflows, clarified high-risk requirements first, and worked closely with the team during sprint execution.",
+    "result": "The team met delivery expectations while maintaining requirement clarity."
+  }
+]

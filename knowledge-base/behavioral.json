@@ -1,0 +1,36 @@
+[
+  {
+    "id": 6,
+    "category": "Implementation",
+    "question": "Describe a project where stakeholders were unclear about requirements.",
+    "answer": "In one project, stakeholders had different interpretations of approval workflows. I conducted multiple workshops, mapped the entire process visually, documented edge cases, and validated flows with all teams before development began. This significantly reduced requirement changes during the sprint cycle."
+  },
+
+  {
+    "id": 7,
+    "category": "Implementation",
+    "question": "Engineering says launch will delay by 4 weeks but sales already committed to clients. How would you handle it?",
+    "answer": "I would first identify whether scope reduction or phased delivery is possible. Then I would align with engineering and sales on realistic delivery options, communicate trade-offs transparently to clients, and prioritize high-value functionalities for initial release while planning remaining features in later phases."
+  },
+
+  {
+    "id": 10,
+    "category": "Agile",
+    "question": "Leadership asks for an urgent feature during sprint. How would you evaluate whether to include it?",
+    "answer": "I evaluate the business urgency, customer impact, engineering effort, and sprint disruption before making a decision. If the request is critical, I discuss trade-offs with stakeholders and determine which lower-priority items can be moved without affecting sprint goals."
+  },
+
+  {
+    "id": 12,
+    "category": "Agile",
+    "question": "QA and developers disagree on estimation. How would you resolve it?",
+    "answer": "I would facilitate a discussion to understand assumptions from both teams. Usually, such gaps come from hidden edge cases or testing complexity. Once clarified, we either split the story or revise estimates collaboratively."
+  },
+
+  {
+    "id": 15,
+    "category": "Agile",
+    "question": "Users complain despite on-time delivery. What Agile or process changes would you consider?",
+    "answer": "I would review issue resolution SLAs, support turnaround time, and feedback loops. I may introduce smaller release cycles, bug triaging improvements, and better prioritization of production issues."
+  }
+]

@@ -1,0 +1,75 @@
+[
+  {
+    "id": 1,
+    "projectName": "Tax Officer Management Platform",
+    "summary": "Worked on a web-based platform used by tax officers to manage taxpayer records, audits, document verification, and operational workflows.",
+    "objective": "Improve efficiency, standardize operational processes, and enable tax officers to manage taxpayer-related activities through a centralized platform.",
+    "challenge": "The platform involved multiple stakeholder groups with evolving requirements. Business workflows needed to be accurately translated into technical requirements while supporting audits, document approvals, and taxpayer record management.",
+    "actions": [
+      "Conducted requirement gathering sessions with business stakeholders",
+      "Mapped end-to-end workflows for taxpayer management and audit processes",
+      "Created user stories and acceptance criteria for development teams",
+      "Collaborated with developers and QA teams throughout sprint execution",
+      "Managed stakeholder communication and requirement clarifications",
+      "Supported sprint planning, backlog refinement, and prioritization discussions",
+      "Participated in UAT activities and validated implemented functionality against business requirements",
+      "Supported end-to-end implementation activities from requirement gathering through deployment"
+    ],
+    "outcome": "Enabled successful implementation of workflow enhancements, improved requirement clarity across teams, and supported efficient management of taxpayer records, audits, and document approval workflows.",
+    "skills": [
+      "Requirement Gathering",
+      "Workflow Mapping",
+      "Stakeholder Management",
+      "User Stories",
+      "Acceptance Criteria",
+      "Agile",
+      "Sprint Planning",
+      "UAT",
+      "Implementation"
+    ]
+  },
+  {
+    "id": 2,
+    "projectName": "HealthTech Partnership & Integration Initiative",
+    "summary": "Worked with healthtech organizations to explore partnerships, integrations, and white-label opportunities for Fitrofy's health platform.",
+    "objective": "Expand product reach through strategic partnerships and integration opportunities.",
+    "challenge": "Different organizations had unique business requirements, integration expectations, and product needs.",
+    "actions": [
+      "Reached out to C-level executives",
+      "Conducted product discussions and demos",
+      "Gathered business requirements from partners",
+      "Worked with internal teams on integration discussions",
+      "Supported white-label opportunity evaluations"
+    ],
+    "outcome": "Helped identify partnership opportunities and supported discussions around product integrations and white-label solutions.",
+    "skills": [
+      "Stakeholder Management",
+      "Product Discovery",
+      "Partnerships",
+      "Business Analysis",
+      "Communication"
+    ]
+  },
+  {
+    "id": 3,
+    "projectName": "AI Recruiter Assistant",
+    "summary": "Built an AI-powered recruiter assistant that acts as a digital representation of my professional experience.",
+    "objective": "Help recruiters understand experience, projects, and product thinking through conversational AI.",
+    "challenge": "Creating grounded AI responses instead of generic chatbot answers.",
+    "actions": [
+      "Designed recruiter-focused workflows",
+      "Built contextual retrieval logic",
+      "Integrated LLM APIs",
+      "Implemented recruiter modes",
+      "Created structured knowledge repositories"
+    ],
+    "outcome": "Built a portfolio-grade AI product demonstrating product thinking and AI workflow design.",
+    "skills": [
+      "AI Products",
+      "Product Thinking",
+      "Prompt Engineering",
+      "Next.js",
+      "User Experience"
+    ]
+  }
+]
