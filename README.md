@@ -4,6 +4,14 @@
 
 https://ai-recruiter-assistant.vercel.app/
 
+## Knowledge Repository
+
+The AI assistant is powered by a structured knowledge repository located in `/knowledge-base`.
+
+This repository contains project experience, KPI examples, STAR stories, behavioral scenarios, recruiter questions, and implementation examples used for contextual retrieval and grounded AI responses.
+View Knowledge Base:
+https://github.com/sarth20-arch/ai-recruiter-assistant/tree/main/knowledge-base
+
 ---
 
 ## Overview
