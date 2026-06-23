@@ -34,3 +34,38 @@
     "answer": "I would review issue resolution SLAs, support turnaround time, and feedback loops. I may introduce smaller release cycles, bug triaging improvements, and better prioritization of production issues."
   }
 ]
+,
+{
+"id": 16,
+"category": "Stakeholder Management",
+"question": "Tell me about a time you had to manage multiple stakeholders with different priorities.",
+"answer": "While working on the Tax Officer Management Platform, different stakeholder groups had varying expectations around workflow design and approvals. I conducted separate discussions, documented priorities, and aligned requirements before development started. This helped reduce misunderstandings and kept implementation moving smoothly."
+},
+
+{
+"id": 17,
+"category": "Requirement Gathering",
+"question": "Describe a situation where requirements changed during implementation.",
+"answer": "During implementation, new business requirements were introduced after initial planning. I worked with stakeholders and developers to assess the impact, reprioritize backlog items, and focus on the most critical changes first while minimizing disruption to ongoing work."
+},
+
+{
+"id": 18,
+"category": "UAT",
+"question": "Tell me about a challenging UAT phase.",
+"answer": "During UAT, business users identified gaps between expected workflows and implemented functionality. I organized walkthrough sessions, validated concerns against requirements, and coordinated fixes with developers. This helped resolve issues before signoff."
+},
+
+{
+"id": 19,
+"category": "Cross Functional Collaboration",
+"question": "Describe a time you worked closely with developers and QA teams.",
+"answer": "Throughout implementation projects, I regularly collaborated with developers and QA teams to clarify requirements, discuss edge cases, review test scenarios, and resolve functional questions. This reduced rework and improved overall delivery quality."
+},
+
+{
+"id": 20,
+"category": "Prioritization",
+"question": "Tell me about a situation where you had to prioritize competing requirements.",
+"answer": "When multiple requirements competed for limited development capacity, I worked with stakeholders to understand business impact, urgency, and dependencies. We prioritized high-value items first and planned remaining requirements for future iterations."
+}

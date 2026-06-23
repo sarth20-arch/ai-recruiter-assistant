@@ -8,23 +8,25 @@
     "result": "The team started development with aligned requirements, reducing requirement-related changes during sprint execution."
   },
 
-  {
-    "id": 2,
-    "scenario": "Stakeholder Conflict",
-    "situation": "Business stakeholders and technical teams had different priorities regarding implementation timelines and feature scope.",
-    "task": "I needed to align both groups while keeping delivery timelines realistic.",
-    "action": "I facilitated discussions focused on business priorities, clarified trade-offs, and helped break requirements into phased deliveries.",
-    "result": "Stakeholders agreed on a prioritized scope and the team continued implementation without significant delays."
-  },
+{
+"id": 2,
+"scenario": "Stakeholder Conflict",
+"situation": "During implementation of the Tax Officer Management Platform, business stakeholders wanted additional workflow validations while the development team was concerned about delivery timelines.",
+"task": "I needed to align both groups and ensure a practical implementation approach.",
+"action": "I facilitated discussions to understand the business impact of the requested validations, worked with developers to estimate effort, and helped split the requirements into immediate and future enhancements.",
+"result": "Stakeholders agreed on a phased approach that addressed critical business needs while keeping the release timeline realistic."
+}
+
 
   {
-    "id": 3,
-    "scenario": "Changing Requirements",
-    "situation": "New business requirements were introduced after sprint planning had already been completed.",
-    "task": "I had to evaluate the impact and minimize disruption to ongoing development.",
-    "action": "I worked with stakeholders and developers to assess dependencies, reprioritize backlog items, and communicate revised expectations.",
-    "result": "The team adapted to the changes while maintaining delivery focus on the highest-priority items."
-  },
+"id": 3,
+"scenario": "Changing Requirements",
+"situation": "While implementing workflow enhancements, stakeholders requested additional approval conditions after sprint planning had already been completed.",
+"task": "I needed to evaluate the impact of the changes and minimize disruption to ongoing work.",
+"action": "I worked with stakeholders, developers and QA teams to assess dependencies, update user stories, reprioritize backlog items and communicate revised expectations.",
+"result": "The critical requirements were accommodated without significantly impacting overall implementation timelines."
+}
+
 
   {
     "id": 4,
@@ -45,11 +47,20 @@
   },
 
   {
-    "id": 6,
-    "scenario": "Tight Deadline",
-    "situation": "A delivery milestone had a fixed timeline while several requirements were still being refined.",
-    "task": "I needed to support delivery without compromising requirement quality.",
-    "action": "I prioritized critical workflows, clarified high-risk requirements first, and worked closely with the team during sprint execution.",
-    "result": "The team met delivery expectations while maintaining requirement clarity."
-  }
+"id": 6,
+"scenario": "Tight Deadline",
+"situation": "A planned release for workflow enhancements had a fixed timeline while some requirements were still being finalized.",
+"task": "I needed to support delivery without compromising requirement quality or creating confusion for developers.",
+"action": "I focused on high-priority workflows first, clarified critical requirements through stakeholder discussions, and worked closely with developers during implementation to resolve questions quickly.",
+"result": "The team delivered the planned functionality within the release timeline while maintaining requirement clarity."
+}
 ]
+
+{
+"id": 7,
+"scenario": "Requirement Discovery",
+"situation": "Stakeholders described a business problem but were unable to clearly define the required solution.",
+"task": "I needed to understand the underlying business need and translate it into implementable requirements.",
+"action": "I conducted requirement workshops, mapped current workflows, identified pain points and documented functional requirements through user stories and acceptance criteria.",
+"result": "The team gained a clear understanding of the solution scope and development started with significantly fewer ambiguities."
+}

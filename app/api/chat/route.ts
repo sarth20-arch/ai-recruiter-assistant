@@ -63,8 +63,7 @@ const projectKnowledge = projects.filter((project: any) => {
 
 const qaKnowledge = [...behavioral, ...starStories].filter(
   (item: any) => {
-    const combinedText =
-      `${item.question} ${item.answer}`.toLowerCase();
+    const combinedText = JSON.stringify(item).toLowerCase();
 
     return (
       (userMessage.includes("stakeholder") &&
@@ -102,12 +101,11 @@ Outcome: ${project.outcome}
   )
   .join("\n\n");
 
-const qaContext = qaKnowledge
+knowledgeContext = relevantKnowledge
   .slice(0, 3)
-  .map(
-    (item: any) =>
-      `Question: ${item.question}\nAnswer: ${item.answer}`
-  )
+  .map((item: any) => {
+    return JSON.stringify(item, null, 2);
+  })
   .join("\n\n");
 
 knowledgeContext = `
@@ -133,12 +131,12 @@ ${profileContext}
 Additional Context:
 ${dynamicContext}
 
-Relevant Experience (use these examples whenever possible and do not invent a different project if a relevant example exists):
+Knowledge Base: (use these examples whenever possible and do not invent a different project if a relevant example exists):
 ${knowledgeContext}
 
 Important:
 - Answer as Sarthak Srivastava.
-- Prefer using the provided Relevant Experience examples.
+- Prefer using the provided Knowledge Base examples.
 - If a relevant example exists, use it instead of creating a new scenario.
 - Do not invent project details that are not present in the provided experience.
 - Stay grounded in the supplied examples.
@@ -148,6 +146,15 @@ Important:
 - Keep answers concise unless more detail is requested.
 - If an outcome is not explicitly provided in the knowledge base, do not invent one.
 - When information is unavailable, state the actions taken rather than creating metrics or results.
+
+When answering project-related questions:
+- Prefer using projectName, elevatorPitch and biggestContribution.
+- If a project is marked mostSignificantProject=true, use it when asked about the most significant project.
+- Prefer actual project examples over generic examples.
+- Use stakeholder lists when discussing stakeholder management.
+- Use implementationExperience when discussing implementation.
+- Do not invent project details not present in the knowledge base.
+- If the question asks about a project, first look for matching project information in the Knowledge Base before generating a response.
 `,
           },
           {
