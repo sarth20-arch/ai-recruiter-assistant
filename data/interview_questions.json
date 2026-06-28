@@ -7,8 +7,35 @@
     "question": "Tell me about yourself.",
     "framework": "STAR",
     "expectedDuration": "2 minutes",
+    "skillsTested": [
+      "Communication",
+      "Structured Thinking",
+      "Self Awareness"
+    ],
     "tip": "Highlight BA-specific experiences, key projects, and domain expertise.",
-    "keyPoints": ["Experience", "Key Projects", "Domain Expertise", "Career Path"]
+    "keyPoints": [
+  "Experience",
+  "Key Projects",
+  "Domain Expertise",
+  "Career Path"
+],
+
+"followUps": [
+  {
+    "question": "Which experiences are most relevant to a Business Analyst role?",
+    "purpose": "Tests whether the candidate can tailor their background to the role."
+  },
+  {
+    "question": "What have you learned from your most relevant project so far?",
+    "purpose": "Tests reflection and growth mindset."
+  }
+],
+
+"commonMistakes": [
+  "Giving a chronological life story instead of a focused BA introduction.",
+  "Talking too much about responsibilities instead of achievements.",
+  "Not tailoring the introduction to the role."
+]
   },
   {
     "id": 2,
@@ -19,7 +46,17 @@
     "framework": "STAR",
     "expectedDuration": "3 minutes",
     "tip": "Focus on end-to-end delivery, coordination, and measurable outcomes.",
-    "keyPoints": ["Delivery", "Coordination", "Requirements", "Outcome Metrics"]
+    "keyPoints": ["Delivery", "Coordination", "Requirements", "Outcome Metrics"],
+    "followUps": [
+      {
+        "question": "What were the biggest challenges during rollout?",
+        "purpose": "Tests problem-solving and resilience during delivery."
+      },
+      {
+        "question": "How did you know the implementation was successful?",
+        "purpose": "Tests outcome-oriented thinking."
+      }
+    ]
   },
   {
     "id": 3,
@@ -30,7 +67,21 @@
     "framework": "STAR",
     "expectedDuration": "3 minutes",
     "tip": "Show how you aligned diverse interests and maintained communication.",
-    "keyPoints": ["Stakeholder Alignment", "Communication", "Trade-offs", "Outcome"]
+    "keyPoints": ["Stakeholder Alignment", "Communication", "Trade-offs", "Outcome"],
+    "followUps": [
+      {
+        "question": "How did you resolve conflicting stakeholder priorities?",
+        "purpose": "Tests stakeholder management."
+      },
+      {
+        "question": "What would you do differently today?",
+        "purpose": "Tests reflection and learning."
+      },
+      {
+        "question": "How did you measure success?",
+        "purpose": "Tests business outcome thinking."
+      }
+    ]
   },
   {
     "id": 4,
@@ -41,7 +92,17 @@
     "framework": "Structured Answer",
     "expectedDuration": "2 minutes",
     "tip": "Explain frameworks used (MoSCoW, value-risk matrix) and trade-offs.",
-    "keyPoints": ["Prioritization Framework", "Business Value", "Resource Trade-offs", "Impact"]
+    "keyPoints": ["Prioritization Framework", "Business Value", "Resource Trade-offs", "Impact"],
+    "followUps": [
+      {
+        "question": "How do you explain a deprioritized item to stakeholders?",
+        "purpose": "Tests communication and stakeholder alignment."
+      },
+      {
+        "question": "What criteria would make you revisit that decision?",
+        "purpose": "Tests adaptability and review discipline."
+      }
+    ]
   },
   {
     "id": 5,
@@ -52,7 +113,17 @@
     "framework": "STAR",
     "expectedDuration": "2-3 minutes",
     "tip": "Show how you clarified, validated, and documented requirements.",
-    "keyPoints": ["Clarification Process", "Stakeholder Engagement", "Documentation", "Validation"]
+    "keyPoints": ["Clarification Process", "Stakeholder Engagement", "Documentation", "Validation"],
+    "followUps": [
+      {
+        "question": "How did you decide when to stop asking questions?",
+        "purpose": "Tests judgment in requirement discovery."
+      },
+      {
+        "question": "What documentation did you create to reduce ambiguity?",
+        "purpose": "Tests clarity and traceability."
+      }
+    ]
   },
   {
     "id": 6,
@@ -63,7 +134,17 @@
     "framework": "Structured Answer",
     "expectedDuration": "2-3 minutes",
     "tip": "Emphasize listening, finding common ground, and data-driven decisions.",
-    "keyPoints": ["Active Listening", "Negotiation", "Common Ground", "Data-Driven"]
+    "keyPoints": ["Active Listening", "Negotiation", "Common Ground", "Data-Driven"],
+    "followUps": [
+      {
+        "question": "Can you give an example of a conflict that escalated?",
+        "purpose": "Tests practical experience with difficult conversations."
+      },
+      {
+        "question": "How do you preserve relationships after a disagreement?",
+        "purpose": "Tests stakeholder maturity and diplomacy."
+      }
+    ]
   },
   {
     "id": 7,
@@ -74,7 +155,17 @@
     "framework": "Scenario Based",
     "expectedDuration": "3 minutes",
     "tip": "Show problem-solving: explore alternatives, trade-offs, and technical collaboration.",
-    "keyPoints": ["Problem Solving", "Technical Understanding", "Alternatives", "Collaboration"]
+    "keyPoints": ["Problem Solving", "Technical Understanding", "Alternatives", "Collaboration"],
+    "followUps": [
+      {
+        "question": "How would you present the trade-offs to the stakeholder?",
+        "purpose": "Tests communication under constraint."
+      },
+      {
+        "question": "What would you do if no compromise was available?",
+        "purpose": "Tests decision-making and escalation judgment."
+      }
+    ]
   },
   {
     "id": 8,
@@ -85,7 +176,17 @@
     "framework": "STAR",
     "expectedDuration": "3 minutes",
     "tip": "Demonstrate adaptability, re-planning, and communication of impact.",
-    "keyPoints": ["Adaptability", "Re-Planning", "Risk Management", "Stakeholder Update"]
+    "keyPoints": ["Adaptability", "Re-Planning", "Risk Management", "Stakeholder Update"],
+    "followUps": [
+      {
+        "question": "How did you communicate the impact of the change?",
+        "purpose": "Tests change communication and stakeholder management."
+      },
+      {
+        "question": "What adjustment did you make to the delivery plan?",
+        "purpose": "Tests agility and planning discipline."
+      }
+    ]
   },
   {
     "id": 9,
@@ -96,7 +197,17 @@
     "framework": "Structured Answer",
     "expectedDuration": "3 minutes",
     "tip": "Define business metrics, tracking mechanisms, and success criteria.",
-    "keyPoints": ["Success Metrics", "Business Impact", "Tracking Mechanism", "Data Analysis"]
+    "keyPoints": ["Success Metrics", "Business Impact", "Tracking Mechanism", "Data Analysis"],
+    "followUps": [
+      {
+        "question": "Which metrics would you review first after launch?",
+        "purpose": "Tests prioritization of business KPIs."
+      },
+      {
+        "question": "How would you handle a metric that shows poor adoption?",
+        "purpose": "Tests analytical thinking and follow-through."
+      }
+    ]
   },
   {
     "id": 10,
@@ -107,6 +218,16 @@
     "framework": "Structured Answer",
     "expectedDuration": "2-3 minutes",
     "tip": "Connect your experience to their business needs and pain points.",
-    "keyPoints": ["Unique Value", "Experience Match", "Problem Solving", "Team Contribution"]
+    "keyPoints": ["Unique Value", "Experience Match", "Problem Solving", "Team Contribution"],
+    "followUps": [
+      {
+        "question": "What makes you stand out from other candidates?",
+        "purpose": "Tests confidence and differentiation."
+      },
+      {
+        "question": "How would your background help this team in the next six months?",
+        "purpose": "Tests strategic fit and forward thinking."
+      }
+    ]
   }
 ]

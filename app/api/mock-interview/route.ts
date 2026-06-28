@@ -7,6 +7,48 @@ import projects from "../../../data/projects.json";
 import behavioral from "../../../data/behavioral.json";
 import starStories from "../../../data/star_stories.json";
 
+function extractJsonPayload(content: string) {
+  if (!content) return null;
+
+  const trimmed = content.trim();
+  if (!trimmed) return null;
+
+  const fencedMatch = trimmed.match(/^```(?:json)?\s*([\s\S]*?)\s*```$/i);
+  const candidate = fencedMatch ? fencedMatch[1].trim() : trimmed;
+
+  const start = candidate.indexOf("{");
+  const end = candidate.lastIndexOf("}");
+  const jsonCandidate = start >= 0 && end > start ? candidate.slice(start, end + 1) : candidate;
+
+  try {
+    return JSON.parse(jsonCandidate);
+  } catch {
+    return null;
+  }
+}
+
+function normalizeAnswerPayload(payload: any) {
+  if (!payload || typeof payload !== "object") {
+    return {
+      suggestedAnswer: "",
+      whyItWorks: [],
+      keyPoints: [],
+      interviewTip: "",
+    };
+  }
+
+  return {
+    suggestedAnswer: typeof payload.suggestedAnswer === "string" ? payload.suggestedAnswer : "",
+    whyItWorks: Array.isArray(payload.whyItWorks)
+      ? payload.whyItWorks.filter((item: unknown): item is string => typeof item === "string")
+      : [],
+    keyPoints: Array.isArray(payload.keyPoints)
+      ? payload.keyPoints.filter((item: unknown): item is string => typeof item === "string")
+      : [],
+    interviewTip: typeof payload.interviewTip === "string" ? payload.interviewTip : "",
+  };
+}
+
 const openai = new OpenAI({
   baseURL: "https://openrouter.ai/api/v1",
   apiKey: process.env.OPENROUTER_API_KEY,
@@ -168,17 +210,31 @@ Rules for Interview Tip:
 - Maximum two sentences.
 - Example: "If you don't have an identical example, use a similar project and focus on your decision-making process."
 
-Knowledge Base References (use as inspiration for realistic scenarios):
+Knowledge Base References:
+
 ${knowledgeContext}
 
-Important:
-- Use the knowledge base examples as inspiration for creating realistic, generic BA scenarios.
-- Never claim that the examples are the candidate's own projects.
-- The sample answer should sound realistic, conversational, and interview-ready.
-- Focus on providing a model answer the candidate can learn from.
+Purpose of the knowledge base:
+
+The knowledge base exists ONLY to help you understand how experienced Business Analysts structure strong interview answers.
+
+Do NOT reuse the specific projects, company names, domains, stakeholders, or implementations found in the knowledge base unless the interview question explicitly asks about Sarthak.
+
+Important Rules:
+
+* Never answer as Sarthak.
+* Never write in first person ("I worked...", "One project that comes to mind...").
+* Never reuse Tax Officer Management Platform, Infosys, Fitrofy, or any project from the knowledge base as the sample answer.
+* Treat the knowledge base as writing style guidance, not factual content.
+* Produce a generic Business Analyst sample answer that any experienced BA could adapt.
+* Use common BA scenarios such as CRM implementation, workflow automation, claims processing, customer onboarding, ERP rollout, or approval workflow improvements.
+* Encourage the candidate to replace the generic example with one from their own experience.
+* Focus on interview technique rather than personal experience.
 
 Additional Context:
+
 ${dynamicContext}
+
 
 RESPOND ONLY WITH VALID JSON. NO OTHER TEXT.`,
           },
@@ -190,19 +246,19 @@ RESPOND ONLY WITH VALID JSON. NO OTHER TEXT.`,
       });
 
     const responseContent = completion.choices[0].message.content || "{}";
-    
-    try {
-      const parsedResponse = JSON.parse(responseContent);
-      return Response.json(parsedResponse);
-    } catch (parseError) {
-      console.error("Failed to parse response JSON:", parseError);
-      return Response.json({
-        suggestedAnswer: responseContent,
-        whyItWorks: [],
-        keyPoints: [],
-        interviewTip: "",
-      });
+    const parsedResponse = extractJsonPayload(responseContent);
+
+    if (parsedResponse) {
+      return Response.json(normalizeAnswerPayload(parsedResponse));
     }
+
+    console.error("Failed to parse response JSON:", responseContent);
+    return Response.json({
+      suggestedAnswer: "I couldn’t generate a structured answer right now. Please try again.",
+      whyItWorks: [],
+      keyPoints: [],
+      interviewTip: "",
+    });
   } catch (error) {
     console.error(error);
 
